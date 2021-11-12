@@ -16,6 +16,8 @@
 		F40B6960273E452900702FF3 /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B695F273E452900702FF3 /* RPSTests.swift */; };
 		F40B696A273E452900702FF3 /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B6969273E452900702FF3 /* RPSUITests.swift */; };
 		F40B696C273E452900702FF3 /* RPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B696B273E452900702FF3 /* RPSUITestsLaunchTests.swift */; };
+		F40B6979273E459300702FF3 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B6978273E459300702FF3 /* Sign.swift */; };
+		F40B697B273E475D00702FF3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B697A273E475D00702FF3 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F40B6965273E452900702FF3 /* RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40B6969273E452900702FF3 /* RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITests.swift; sourceTree = "<group>"; };
 		F40B696B273E452900702FF3 /* RPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F40B6978273E459300702FF3 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		F40B697A273E475D00702FF3 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		F40B693C273E452800702FF3 = {
 			isa = PBXGroup;
 			children = (
+				F40B6978273E459300702FF3 /* Sign.swift */,
+				F40B697A273E475D00702FF3 /* GameState.swift */,
 				F40B6947273E452800702FF3 /* RPS */,
 				F40B695E273E452900702FF3 /* RPSTests */,
 				F40B6968273E452900702FF3 /* RPSUITests */,
@@ -260,6 +266,8 @@
 			files = (
 				F40B694D273E452800702FF3 /* ViewController.swift in Sources */,
 				F40B6949273E452800702FF3 /* AppDelegate.swift in Sources */,
+				F40B697B273E475D00702FF3 /* GameState.swift in Sources */,
+				F40B6979273E459300702FF3 /* Sign.swift in Sources */,
 				F40B694B273E452800702FF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +454,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +482,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
